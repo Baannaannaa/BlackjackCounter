@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Blackjack Counter</string>
+    <string name="home_title">🃏 Blackjack Counter 🃏</string>
+    <string name="home_subtitle">Entraîne-toi au Hi-Lo</string>
+    <string name="settings_num_cards">Nombre de cartes : %d</string>
+    <string name="settings_speed">Vitesse : %d ms / carte</string>
+    <string name="settings_decks">Nombre de decks : %d</string>
+    <string name="settings_players">Nombre de joueurs (bots) : %d</string>
+    <string name="game_bot_player">Bot %d</string>
+    <string name="settings_max_cards_warning">⚠️ Le sabot ne contient que %1$d cartes — seules les %2$d premières seront tirées.</string>
+    <string name="settings_dark_mode">🌙 Mode sombre</string>
+    <string name="settings_sounds">🔊 Sons</string>
+    <string name="btn_start">▶ Mode Entraînement</string>
+    <string name="btn_play_game">🃏 Jouer au Blackjack</string>
+    <string name="game_dealer">Croupier</string>
+    <string name="game_player">Vous</string>
+    <string name="game_bet">Mise : %d $</string>
+    <string name="game_bankroll">Capital : %d $</string>
+    <string name="game_btn_hit">Tirer</string>
+    <string name="game_btn_stand">Rester</string>
+    <string name="game_btn_deal">Distribuer</string>
+    <string name="game_show_count">Afficher l\'aide au comptage</string>
+    <string name="game_result_win">GAGNÉ ! 💰</string>
+    <string name="game_result_lose">PERDU 💸</string>
+    <string name="game_result_push">ÉGALITÉ (Push) 🤝</string>
+    <string name="game_result_blackjack">BLACKJACK ! 🔥</string>
+    <string name="game_result_bust">BUST ! (Sauté) 💥</string>
+    <string name="game_over_title">Ruiné !</string>
+    <string name="game_over_desc">Vous n\'avez plus d\'argent. La banque gagne toujours…</string>
+    <string name="game_btn_restart">Recommencer avec 1000$</string>
+    <string name="btn_rules">📖 Règles du Hi-Lo</string>
+    <string name="btn_stats">📊 Mes statistiques</string>
+    <string name="btn_settings">⚙️ Paramètres</string>
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_language_title">Langue</string>
+
+    <string name="rules_title">📖 Système Hi-Lo</string>
+    <string name="rules_principle_title">🎯 Le principe</string>
+    <string name="rules_principle_desc">Plus il reste de grosses cartes (10, J, Q, K, A) dans le sabot, plus le joueur a l\'avantage. Le Hi-Lo te permet de suivre ça mentalement.</string>
+    <string name="rules_values_title">🔢 Les valeurs</string>
+    <string name="rules_rc_title">📊 Running Count (RC)</string>
+    <string name="rules_rc_desc">Tu additionnes les valeurs au fur et à mesure que les cartes sortent. Exemple : 5 (+1), K (−1), 3 (+1), 8 (0), 2 (+1) → RC = +2.</string>
+    <string name="rules_tc_title">🎯 True Count (TC)</string>
+    <string name="rules_tc_desc">Au casino on joue avec plusieurs decks (souvent 6 ou 8). Le RC seul ne suffit pas : il faut le ramener à 1 deck.\n\nTC = RC / decks restants\n\nExemple : RC = +6, il reste 3 decks → TC = +2.\nEn général, TC ≥ +2 = avantage joueur, on mise plus gros.</string>
+    <string name="rules_advice_title">💡 Conseil d\'entraînement</string>
+    <string name="rules_advice_desc">Commence lent (1500-2000 ms), petit nombre de cartes. Quand tu es à 100% de réussite, accélère. Objectif pro : compter un deck entier (52 cartes) en moins de 25 secondes.</string>
+    <string name="btn_back">← Retour</string>
+
+    <string name="result_title">Tes réponses ?</string>
+    <string name="result_info">Decks au départ : %1$d · Cartes tirées : %2$d</string>
+    <string name="label_rc">Running Count (ex: -2)</string>
+    <string name="label_tc">True Count (ex: -0.5)</string>
+    <string name="btn_validate">Valider</string>
+    <string name="result_rc">Running Count</string>
+    <string name="result_tc">True Count</string>
+    <string name="result_truth_rc">Vrai : %d</string>
+    <string name="result_truth_tc">Vrai : %1$.1f (decks restants ≈ %2$.2f, exact : %3$.2f)</string>
+    <string name="result_user_answer">Ta réponse : %s</string>
+    <string name="btn_menu">Retour menu</string>
+
+    <string name="stats_title">📊 Mes statistiques</string>
+    <string name="stats_empty">Aucune session enregistrée pour l\'instant.\nFais ton premier drill !</string>
+    <string name="stats_sessions_played">Sessions jouées</string>
+    <string name="stats_rc_accuracy">✅ Running Count</string>
+    <string name="stats_tc_accuracy">✅ True Count</string>
+    <string name="stats_avg_speed">Vitesse moyenne</string>
+    <string name="stats_avg_cards">Cartes moyennes</string>
+    <string name="stats_history">Historique</string>
+    <string name="btn_clear_history">🗑 Effacer l\'historique</string>
+    <string name="stat_row_info">%1$d cartes · %2$dms · %3$d deck(s)</string>
+    <string name="stat_row_result">RC %1$s (%2$s/%3$d)  ·  TC %4$s (%5$s/%6$s)</string>
+</resources>

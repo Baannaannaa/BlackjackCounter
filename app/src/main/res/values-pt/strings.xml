@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Contador de Blackjack</string>
+    <string name="home_title">🃏 Blackjack Counter 🃏</string>
+    <string name="home_subtitle">Treine suas habilidades Hi-Lo</string>
+    <string name="settings_num_cards">Número de cartas: %d</string>
+    <string name="settings_speed">Velocidade: %d ms / carta</string>
+    <string name="settings_decks">Número de baralhos: %d</string>
+    <string name="settings_players">Número de jogadores (bots): %d</string>
+    <string name="game_bot_player">Bot %d</string>
+    <string name="settings_max_cards_warning">⚠️ O sapato contém apenas %1$d cartas — apenas as primeiras %2$d serão sorteadas.</string>
+    <string name="settings_dark_mode">🌙 Modo escuro</string>
+    <string name="settings_sounds">🔊 Sons</string>
+    <string name="btn_start">▶ Modo de Treino</string>
+    <string name="btn_play_game">🃏 Jogar Blackjack</string>
+    <string name="game_dealer">Crupiê</string>
+    <string name="game_player">Você</string>
+    <string name="game_bet">Aposta: %d $</string>
+    <string name="game_bankroll">Capital: %d $</string>
+    <string name="game_btn_hit">Pedir</string>
+    <string name="game_btn_stand">Parar</string>
+    <string name="game_btn_deal">Dar Cartas</string>
+    <string name="game_show_count">Mostrar ajuda de contagem</string>
+    <string name="game_result_win">VOCÊ GANHOU! 💰</string>
+    <string name="game_result_lose">O CRUPIÊ GANHOU 💸</string>
+    <string name="game_result_push">EMPATE (Push) 🤝</string>
+    <string name="game_result_blackjack">BLACKJACK! 🔥</string>
+    <string name="game_result_bust">ESTOUROU! 💥</string>
+    <string name="game_over_title">Falido!</string>
+    <string name="game_over_desc">Você ficou sem dinheiro. A casa sempre vence…</string>
+    <string name="game_btn_restart">Recomeçar com 1000$</string>
+    <string name="btn_rules">📖 Regras Hi-Lo</string>
+    <string name="btn_stats">📊 Minhas estatísticas</string>
+    <string name="btn_settings">⚙️ Configurações</string>
+    <string name="settings_title">Configurações</string>
+    <string name="settings_language_title">Idioma</string>
+
+    <string name="rules_title">📖 Sistema Hi-Lo</string>
+    <string name="rules_principle_title">🎯 O Princípio</string>
+    <string name="rules_principle_desc">Quanto mais cartas altas (10, J, Q, K, A) permanecerem no sapato, mais vantagem o jogador terá. O Hi-Lo permite que você acompanhe isso mentalmente.</string>
+    <string name="rules_values_title">🔢 Os Valores</string>
+    <string name="rules_rc_title">📊 Contagem Corrente (RC)</string>
+    <string name="rules_rc_desc">Você soma os valores conforme as cartas saem. Exemplo: 5 (+1), K (−1), 3 (+1), 8 (0), 2 (+1) → RC = +2.</string>
+    <string name="rules_tc_title">🎯 Contagem Real (TC)</string>
+    <string name="rules_tc_desc">Num cassino, jogamos com vários baralhos (geralmente 6 ou 8). O RC sozinho não é suficiente: ele deve ser convertido para 1 baralho.\n\nTC = RC / baralhos restantes\n\nExemplo: RC = +6, restam 3 baralhos → TC = +2.\nEm geral, TC ≥ +2 = vantagem do jogador, aposte mais alto.</string>
+    <string name="rules_advice_title">💡 Conselhos de treino</string>
+    <string name="rules_advice_desc">Comece devagar (1500-2000 ms), poucas cartas. Quando estiver com 100% de acerto, acelere. Objetivo pro: contar um baralho inteiro (52 cartas) em menos de 25 segundos.</string>
+    <string name="btn_back">← Voltar</string>
+
+    <string name="result_title">Suas respostas?</string>
+    <string name="result_info">Baralhos iniciais: %1$d · Cartas sorteadas: %2$d</string>
+    <string name="label_rc">Contagem Corrente (ex: -2)</string>
+    <string name="label_tc">Contagem Real (ex: -0.5)</string>
+    <string name="btn_validate">Validar</string>
+    <string name="result_rc">Contagem Corrente</string>
+    <string name="result_tc">Contagem Real</string>
+    <string name="result_truth_rc">Verdadeiro: %d</string>
+    <string name="result_truth_tc">Verdadeiro: %1$.1f (baralhos restantes ≈ %2$.2f, exato: %3$.2f)</string>
+    <string name="result_user_answer">Sua resposta: %s</string>
+    <string name="btn_menu">Voltar ao menu</string>
+
+    <string name="stats_title">📊 Minhas estatísticas</string>
+    <string name="stats_empty">Nenhuma sessão gravada ainda.\nFaça seu primeiro treino!</string>
+    <string name="stats_sessions_played">Sessões jogadas</string>
+    <string name="stats_rc_accuracy">✅ Contagem Corrente</string>
+    <string name="stats_tc_accuracy">✅ Contagem Real</string>
+    <string name="stats_avg_speed">Velocidade média</string>
+    <string name="stats_avg_cards">Cartas médias</string>
+    <string name="stats_history">Histórico</string>
+    <string name="btn_clear_history">🗑 Limpar histórico</string>
+    <string name="stat_row_info">%1$d cartas · %2$dms · %3$d baralho(s)</string>
+    <string name="stat_row_result">RC %1$s (%2$s/%3$d)  ·  TC %4$s (%5$s/%6$s)</string>
+</resources>

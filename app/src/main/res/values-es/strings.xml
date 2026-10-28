@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Contador de Blackjack</string>
+    <string name="home_title">🃏 Blackjack Counter 🃏</string>
+    <string name="home_subtitle">Entrena tus habilidades Hi-Lo</string>
+    <string name="settings_num_cards">Número de cartas: %d</string>
+    <string name="settings_speed">Velocidad: %d ms / carta</string>
+    <string name="settings_decks">Número de barajas: %d</string>
+    <string name="settings_players">Número de jugadores (bots): %d</string>
+    <string name="game_bot_player">Bot %d</string>
+    <string name="settings_max_cards_warning">⚠️ El zapato solo contiene %1$d cartas — solo se extraerán las primeras %2$d.</string>
+    <string name="settings_dark_mode">🌙 Modo oscuro</string>
+    <string name="settings_sounds">🔊 Sonidos</string>
+    <string name="btn_start">▶ Modo Entrenamiento</string>
+    <string name="btn_play_game">🃏 Jugar al Blackjack</string>
+    <string name="game_dealer">Crupier</string>
+    <string name="game_player">Tú</string>
+    <string name="game_bet">Apuesta: %d $</string>
+    <string name="game_bankroll">Capital: %d $</string>
+    <string name="game_btn_hit">Pedir</string>
+    <string name="game_btn_stand">Plantarse</string>
+    <string name="game_btn_deal">Repartir</string>
+    <string name="game_show_count">Mostrar ayuda de conteo</string>
+    <string name="game_result_win">¡GANASTE! 💰</string>
+    <string name="game_result_lose">GANA EL CRUPIER 💸</string>
+    <string name="game_result_push">EMPATE (Push) 🤝</string>
+    <string name="game_result_blackjack">¡BLACKJACK! 🔥</string>
+    <string name="game_result_bust">¡BUST! (Pasado) 💥</string>
+    <string name="game_over_title">¡Bancarrota!</string>
+    <string name="game_over_desc">Te has quedado sin dinero. La casa siempre gana…</string>
+    <string name="game_btn_restart">Reiniciar con 1000$</string>
+    <string name="btn_rules">📖 Reglas Hi-Lo</string>
+    <string name="btn_stats">📊 Mis estadísticas</string>
+    <string name="btn_settings">⚙️ Ajustes</string>
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_language_title">Idioma</string>
+
+    <string name="rules_title">📖 Sistema Hi-Lo</string>
+    <string name="rules_principle_title">🎯 El principio</string>
+    <string name="rules_principle_desc">Cuantas más cartas altas (10, J, Q, K, A) queden en el zapato, más ventaja tiene el jugador. Hi-Lo te permite rastrear esto mentalmente.</string>
+    <string name="rules_values_title">🔢 Los valores</string>
+    <string name="rules_rc_title">📊 Cuenta Corriente (RC)</string>
+    <string name="rules_rc_desc">Suma los valores a medida que salen las cartas. Ejemplo: 5 (+1), K (−1), 3 (+1), 8 (0), 2 (+1) → RC = +2.</string>
+    <string name="rules_tc_title">🎯 Cuenta Real (TC)</string>
+    <string name="rules_tc_desc">En un casino, jugamos con varias barajas (a menudo 6 u 8). El RC solo no es suficiente: debe reducirse a 1 baraja.\n\nTC = RC / barajas restantes\n\nEjemplo: RC = +6, quedan 3 barajas → TC = +2.\nEn general, TC ≥ +2 = ventaja del jugador, apuesta más fuerte.</string>
+    <string name="rules_advice_title">💡 Consejo de entrenamiento</string>
+    <string name="rules_advice_desc">Comienza lento (1500-2000 ms), pocas cartas. Cuando tengas un 100% de éxito, acelera. Objetivo pro: contar una baraja completa (52 cartas) en menos de 25 segundos.</string>
+    <string name="btn_back">← Volver</string>
+
+    <string name="result_title">¿Tus respuestas?</string>
+    <string name="result_info">Barajas iniciales: %1$d · Cartas extraídas: %2$d</string>
+    <string name="label_rc">Cuenta Corriente (ej: -2)</string>
+    <string name="label_tc">Cuenta Real (ej: -0.5)</string>
+    <string name="btn_validate">Validar</string>
+    <string name="result_rc">Cuenta Corriente</string>
+    <string name="result_tc">Cuenta Real</string>
+    <string name="result_truth_rc">Verdadera: %d</string>
+    <string name="result_truth_tc">Verdadera: %1$.1f (barajas restantes ≈ %2$.2f, exacto: %3$.2f)</string>
+    <string name="result_user_answer">Tu respuesta: %s</string>
+    <string name="btn_menu">Volver al menú</string>
+
+    <string name="stats_title">📊 Mis estadísticas</string>
+    <string name="stats_empty">No hay sesiones grabadas todavía.\n¡Haz tu primer entrenamiento!</string>
+    <string name="stats_sessions_played">Sesiones jugadas</string>
+    <string name="stats_rc_accuracy">✅ Cuenta Corriente</string>
+    <string name="stats_tc_accuracy">✅ Cuenta Real</string>
+    <string name="stats_avg_speed">Velocidad media</string>
+    <string name="stats_avg_cards">Cartas medias</string>
+    <string name="stats_history">Historial</string>
+    <string name="btn_clear_history">🗑 Borrar historial</string>
+    <string name="stat_row_info">%1$d cartas · %2$dms · %3$d baraja(s)</string>
+    <string name="stat_row_result">RC %1$s (%2$s/%3$d)  ·  TC %4$s (%5$s/%6$s)</string>
+</resources>

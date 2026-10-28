@@ -1,57 +1,56 @@
 # 🃏 Blackjack Counter
 
-**Blackjack Counter** est une application Android moderne développée en **Kotlin** et **Jetpack Compose**, conçue pour s'entraîner au comptage de cartes au Blackjack selon la méthode **Hi-Lo** et mettre en pratique ses compétences dans un simulateur de jeu interactif.
+**Blackjack Counter** is a modern Android application built with **Kotlin** and **Jetpack Compose**, designed to practice card counting in Blackjack using the **Hi-Lo** system and test your skills in an interactive game simulator.
 
 ---
 
-## ✨ Fonctionnalités principales
+## ✨ Key Features
 
-### 🎯 Mode Entraînement (Drill)
-* **Configuration sur mesure** : Choix du nombre de cartes, de la vitesse de défilement (de 300 ms à 2 000 ms) et du nombre de jeux dans le sabot (1 à 8 decks).
-* **Animations fluides** : Défilement dynamique des cartes avec effets 3D.
-* **Évaluation des résultats** : Saisie et vérification du *Running Count* (RC) et du *True Count* (TC) calculé à la fin de la session.
+### 🎯 Practice Mode (Drill)
+* **Customizable Setup**: Choose the number of cards, card flip speed (from 300 ms to 2,000 ms), and number of decks in the shoe (1 to 8 decks).
+* **Smooth Animations**: Dynamic card flipping with 3D visual effects.
+* **Accuracy Evaluation**: Input and verify your calculated *Running Count* (RC) and *True Count* (TC) at the end of each session.
 
-### 🎰 Mode Jeu (Simulateur Blackjack)
-* **Parties réelles** : Jouez des mains contre le croupier avec gestion d'un bankroll et d'un système de jetons/mises.
-* **Compteur d'aide (Helper)** : Option d'affichage du *Running Count* et du *True Count* en temps réel pour valider ses calculs en situation réelle.
+### 🎰 Game Mode (Blackjack Simulator)
+* **Real Gameplay**: Play hands against the dealer with bankroll management and a chip betting system.
+* **Live Count Helper**: Optional real-time overlay displaying the *Running Count* and *True Count* to validate your calculations during play.
 
-### 📊 Statistiques & Série (Streak)
-* **Série quotidienne (Streak 🔥)** : Suivi des jours consécutifs d'entraînement (style Duolingo).
-* **Historique détaillé** : Calcul des taux de réussite (précision RC et TC), de la vitesse moyenne de comptage et du volume de cartes.
+### 📊 Stats & Daily Streaks
+* **Daily Streak Tracker (Streak 🔥)**: Track your consecutive practice days (Duolingo-style).
+* **Detailed History**: View win rates (RC and TC accuracy), average counting speed, and total cards counted.
 
-### 🌍 Support Multilingue
-* Disponible en 5 langues : **Français**, **English**, **Español**, **Italiano** et **Português**.
+### 🌍 Multi-language Support
+* Available in 5 languages: **English**, **French**, **Spanish**, **Italian**, and **Portuguese**.
 
-### 🎨 Design & Expérience Utilisateur
-* Interface Material Design 3 avec support du **Mode Sombre** / **Mode Clair**.
-* Effets sonores intégrés (gestion du son personnalisable).
-* Guide et rappel des règles du comptage Hi-Lo intégrés directement dans l'application.
-
----
-
-## 🛠️ Stack Technique
-
-* **Langage** : [Kotlin](https://kotlinlang.org/)
-* **UI Framework** : [Jetpack Compose](https://developer.android.com/jetpack/compose) (Material 3)
-* **Stockage de données** : [DataStore Preferences](https://developer.android.com/topic/libraries/architecture/datastore)
-* **Tâches en arrière-plan** : [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager)
-* **Asynchronisme** : Coroutines & Kotlin Flow
-* **Android Min SDK** : 24 (Android 7.0 Nougat)
+### 🎨 Design & User Experience
+* Modern Material Design 3 interface with **Dark Mode** / **Light Mode** support.
+* Custom card sound effects and audio controls.
+* Integrated rules guide explaining the Hi-Lo counting system, Running Count, and True Count.
 
 ---
 
-## 🚀 Lancement du projet
+## 🛠️ Tech Stack
 
-1. **Cloner le dépôt** :
-   git clone https://github.com/VOTRE_PSEUDO/BlackjackCounter.git
-
-2. Ouvrez le projet dans **Android Studio**.
-3. Laissez Gradle synchroniser les dépendances.
-4. Lancez l'application sur un émulateur ou un appareil Android connecté.
+* **Language**: [Kotlin](https://kotlinlang.org/)
+* **UI Framework**: [Jetpack Compose](https://developer.android.com/jetpack/compose) (Material 3)
+* **Data Storage**: [DataStore Preferences](https://developer.android.com/topic/libraries/architecture/datastore)
+* **Background Tasks**: [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager)
+* **Asynchrony**: Coroutines & Kotlin Flow
+* **Min Android SDK**: 24 (Android 7.0 Nougat)
 
 ---
 
-## 📄 Licence
+## 🚀 Getting Started
 
-Ce projet est sous licence MIT.
-   
+1. **Clone the repository**:
+   git clone https://github.com/YOUR_USERNAME/BlackjackCounter.git
+
+2. Open the project in **Android Studio**.
+3. Allow Gradle to sync dependencies.
+4. Run the application on an Android emulator or physical device.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
